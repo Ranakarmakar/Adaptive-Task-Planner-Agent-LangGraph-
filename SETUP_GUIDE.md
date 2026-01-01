@@ -1,6 +1,8 @@
 # Adaptive Task Planner Agent - Setup Guide
 
-## 🚀 Quick Start
+**Developer: Rana Karmakar (Gen AI Engineer)**
+
+## Quick Start
 
 ### 1. Create Virtual Environment
 ```bash
@@ -31,7 +33,7 @@ This will open the interactive web interface at http://localhost:8501
 python main.py
 ```
 
-## 🔧 What's Updated
+## What's Updated
 
 ### Latest Versions
 - **LangGraph 1.0.5** - Stable production release with improved APIs
@@ -44,7 +46,7 @@ python main.py
 3. **Custom table display** - Built table rendering without pandas dependency
 4. **Enhanced error handling** - Better error messages and dependency checking
 
-## 🎯 Features
+## Features
 
 ### Interactive Web Interface
 - Add/remove tasks dynamically
@@ -58,7 +60,7 @@ python main.py
 - **Progress Reflection** - Analyzes what's done vs. what remains
 - **Dynamic Replanning** - Moves unfinished tasks back for future cycles
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -92,7 +94,7 @@ print(f'Success: {len(final_state[\"completed_tasks\"])}/{len(final_state[\"task
 "
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 adaptive-task-planner-agent/
@@ -110,12 +112,12 @@ adaptive-task-planner-agent/
 └── README.md               # Project documentation
 ```
 
-## 🎉 Success!
+## Success!
 
 If everything is working correctly, you should see:
-- ✓ CLI demo runs without errors
-- ✓ Streamlit app launches at http://localhost:8501
-- ✓ Agent completes task planning, execution, and reflection cycles
-- ✓ Web interface allows interactive task management
+- CLI demo runs without errors
+- Streamlit app launches at http://localhost:8501
+- Agent completes task planning, execution, and reflection cycles
+- Web interface allows interactive task management
 
-**Built with ❤️ using LangGraph 1.0 and LangChain 0.3**
+**Built with LangGraph 1.0 and LangChain 0.3 by Rana Karmakar (Gen AI Engineer)**

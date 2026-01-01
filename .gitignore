@@ -1,34 +1,7 @@
-# Build outputs
-dist/
-build/
-*.min.js
-*.min.css
+# IDE / tool folders
+.vscode/
+.kiro/
 
 # Environment files
 .env
-.env.local
-.env.production
-.env.staging
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS files
-.DS_Store
-Thumbs.db
-*.tmp
-*.temp
-
-# Cache
-.cache/
-*.cache
-.kiro/
-.vscode/
-
-# Backup files
-*.bak
-*.backup
+.env.*

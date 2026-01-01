@@ -1,8 +1,10 @@
 # Adaptive Task Planner Agent
 
+**Developer: Rana Karmakar (Gen AI Engineer)**
+
 A simple, clean AI agent built with **LangGraph 1.0** that demonstrates intelligent task planning, execution simulation, reflection, and dynamic replanning capabilities.
 
-## 🎯 Overview
+## Overview
 
 This project showcases a production-ready AI agent architecture that:
 - **Plans tasks** intelligently based on deadlines and time constraints
@@ -12,7 +14,7 @@ This project showcases a production-ready AI agent architecture that:
 
 The agent follows a continuous improvement loop, adapting its approach based on execution results.
 
-## 🏗️ Why LangGraph 1.0?
+## Why LangGraph 1.0?
 
 LangGraph 1.0 was chosen for this project because it provides:
 
@@ -22,7 +24,7 @@ LangGraph 1.0 was chosen for this project because it provides:
 - **Durable Execution**: Built-in persistence, streaming, and human-in-the-loop patterns
 - **Seamless Integration**: Works hand-in-hand with LangChain 1.0 for high-level to low-level control
 
-## 🔧 Agent Architecture
+## Agent Architecture
 
 The agent consists of four main components working in a cycle:
 
@@ -47,7 +49,7 @@ The agent consists of four main components working in a cycle:
 3. **reflect**: Analyzes progress and identifies unfinished work
 4. **replan**: Moves incomplete tasks back for future planning
 
-## 📊 Graph Flow
+## Graph Flow
 
 The LangGraph workflow follows this decision tree:
 
@@ -78,54 +80,54 @@ reflect                                      │
 - `reflect → replan`: When tasks remain unfinished
 - `replan → execute_day`: Continue the cycle with replanned tasks
 
-## 🚀 Example Run
+## Example Run
 
 ```bash
 $ python main.py
 
-🎭 ADAPTIVE TASK PLANNER AGENT DEMO
+ADAPTIVE TASK PLANNER AGENT DEMO
 ============================================================
 This demo shows an AI agent that plans tasks, executes them,
 reflects on progress, and replans when needed using LangGraph.
 ============================================================
 
-📋 Sample Tasks (6 total):
+Sample Tasks (6 total):
   1. Review project requirements
      Due: 2024-01-15T09:00:00 (2.0h)
   2. Design system architecture
      Due: 2024-01-15T17:00:00 (4.0h)
   ...
 
-🚀 Starting Adaptive Task Planner Agent
-🏗️ Building LangGraph workflow...
-✅ LangGraph workflow created successfully
+Starting Adaptive Task Planner Agent
+Building LangGraph workflow...
+LangGraph workflow created successfully
 
-🎬 Executing workflow...
+Executing workflow...
 
-🎯 Planning tasks for the day...
+Planning tasks for the day...
   → Planned 3 tasks (7.5 hours total)
     • Review project requirements
     • Design system architecture
     • Set up development environment
 
-⚡ Executing daily plan...
+Executing daily plan...
   → Completing: Review project requirements
-  → ✅ Task completed!
+  → Task completed!
 
-🤔 Reflecting on progress...
+Reflecting on progress...
   → 2 tasks remain unfinished
   → These tasks need replanning:
     • Design system architecture
     • Set up development environment
 
-🔄 Replanning based on feedback...
+Replanning based on feedback...
   → Moving 2 unfinished tasks back to planning
     • Design system architecture → back to planning
     • Set up development environment → back to planning
 
 [Cycle continues until all tasks are complete...]
 
-🏁 Workflow completed successfully!
+Workflow completed successfully!
 
 ==================================================
 AGENT STATE SUMMARY
@@ -143,18 +145,18 @@ Completed Tasks:
   ✓ Create documentation
 ==================================================
 
-📊 FINAL ANALYSIS:
+FINAL ANALYSIS:
   Completion Rate: 100% (6/6)
   Status: All planned tasks completed successfully!
 
-✨ The agent demonstrated:
+The agent demonstrated:
   • Intelligent task planning based on deadlines
   • Simulated task execution
   • Reflection on progress and unfinished work
   • Dynamic replanning when tasks remain incomplete
 ```
 
-## 🛠️ How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -216,7 +218,7 @@ adaptive-task-planner-agent/
 └── README.md               # This file
 ```
 
-## 🔮 Future Improvements
+## Future Improvements
 
 This project provides a solid foundation that can be extended with:
 
@@ -245,7 +247,7 @@ This project provides a solid foundation that can be extended with:
 - **API Endpoints**: RESTful API for external integrations
 - **Monitoring**: Logging, metrics, and alerting capabilities
 
-## 🏆 Technical Achievements
+## Technical Achievements
 
 This project demonstrates several advanced concepts:
 
@@ -256,14 +258,14 @@ This project demonstrates several advanced concepts:
 - **Extensible Design**: Easy to add new nodes and workflow paths
 - **Production Patterns**: Code structure suitable for real-world deployment
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
 
 ---
 
-**Built with ❤️ using LangGraph 1.0 and LangChain 0.3**
+**Built with LangGraph 1.0 and LangChain 0.3 by Rana Karmakar (Gen AI Engineer)**
